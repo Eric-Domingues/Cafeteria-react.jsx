@@ -1,0 +1,28 @@
+article {
+    margin-top: 2rem;
+    width: 400px;
+}
+
+#card-servico {
+    margin-left: 2rem;
+}
+
+h2 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #696969;
+    width: 300px;
+    height: 80px;
+    word-break: break-word;
+}
