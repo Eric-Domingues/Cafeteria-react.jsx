@@ -3,3 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+section#app-card {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
