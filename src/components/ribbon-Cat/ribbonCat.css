@@ -1,0 +1,45 @@
+#ribbon-sect{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+#ribbon-Cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    width: 300px;
+    height: 90px;
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    background-color: #F5E1CB;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#ribbon-Cat:hover{
+    cursor: pointer;
+}
+
+#ribbon-left{
+    background-color: #F5E1CB;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 81%, 25% 100%, 68% 50%);
+    width: 100px;
+    height: 100px;
+    transform: translate(5px);
+}
+
+#ribbon-right{
+    background-color: #F5E1CB;
+    clip-path: polygon(0% 0%, 75% 0%, 39% 52%, 75% 100%, 0 83%);
+    width: 100px;
+    height: 100px;
+    transform: translate(-5px);
+}

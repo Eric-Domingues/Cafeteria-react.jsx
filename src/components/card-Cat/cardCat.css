@@ -1,0 +1,42 @@
+#cat-img{
+    width: 500px;
+    height: 578px;
+    border-radius: 19px;
+    object-fit: cover;
+}
+
+#card-imgcat{
+    position: relative;
+}
+
+#card-content{
+    background-color: rgba(98, 66, 53, 0.9);
+    width: 500px;
+    height: 150px;
+    border-radius: 19px;
+    margin-bottom: 5px;
+    padding: 5px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#card-content h1{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#card-content p{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    width: 350px;
+    height: 90px;
+    margin-left: 10px;
+    word-break: break-word;
+}

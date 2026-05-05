@@ -9,3 +9,10 @@ section#app-card {
     justify-content: center;
     gap: 3rem;
 }
+
+#card-CatApp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 2rem;
+}

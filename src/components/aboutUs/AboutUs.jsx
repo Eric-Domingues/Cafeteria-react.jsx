@@ -1,0 +1,24 @@
+import React from "react";
+import "./aboutUs.css"
+import lojaImg from "../../assets/images/loja1.png"
+import {Ribbon} from "../ribbon/Ribbon"
+import cutAbout from "../../assets/images/cut-AboutUs.png"
+
+export class AboutUs extends React.Component{
+    render(){
+        return(
+            <section>
+                <div id="about-us">
+                <img id="img-loja1" src={lojaImg} alt="" />
+                <div id="paragrafo">
+                    <Ribbon ribbon="Quem nos somos:" id= "about-ribbon"></Ribbon>
+                    <p id="paragrafo-aboutUs">Lorem ipsum dolor sit amet, consectetur ad ipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                </div>
+                <div>
+                <img id="img-cut" src={cutAbout} alt="" />
+                </div>
+            </section>
+        )
+    }
+}

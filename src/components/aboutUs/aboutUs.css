@@ -1,0 +1,51 @@
+#about-us{
+    display: flex;
+    margin: 5rem;
+    margin-left: 10rem;
+}
+
+#about-ribbon{
+    padding: 10px 60px ;
+    background-color: #F5E1CB;
+    width: fit-content;
+    height: 60px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 0, 81% 100%, 0% 100%);
+    transform: translateX(-3px)
+}
+
+#abount-ribbon h1{
+    margin: 1px 100px auto 0;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#img-loja1{
+    width: 450px;
+}
+
+#img-cut{
+    width: 100%;
+    height: 200px;
+}
+
+#paragrafo-aboutUs{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+#paragrafo{
+    display: flex;
+    flex-direction: column;
+}

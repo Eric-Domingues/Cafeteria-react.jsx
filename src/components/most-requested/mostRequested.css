@@ -1,0 +1,128 @@
+#requested-background{ 
+  height: 1460px; 
+  margin-top: 5rem; 
+  margin-bottom: 5rem; 
+  padding-top: 80px; 
+  background-image: url("../../assets/images/requested-background.png"); 
+  background-size: cover; 
+  background-repeat: no-repeat; }
+
+#requested-ribbon{
+    padding: 10px 60px ;
+    background-color: #F5E1CB;
+    width: fit-content;
+    height: 90px;
+    width: 500px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    /* transform: translateY(200px); */
+    clip-path: polygon(0% 0%, 75% 0%, 100% 0, 81% 100%, 0% 100%);
+}
+
+#requested-ribbon h1{
+    margin: 1px 100px auto 0;
+    font-size: 40px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.carousel {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 300px;
+}
+
+.center-carousel{
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; 
+  scroll-behavior: smooth;
+  cursor: grab;
+}
+
+.inner:active {
+  cursor: grabbing;
+}
+
+.inner::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  min-width: 250px;
+  height: 200px;
+  flex-shrink: 0; 
+}
+
+.item img {
+  width: 320px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.p-bebidas{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
+
+  color: white;
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.p-most{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.line-most{
+  max-width: 200px;
+  max-height: 3px;
+}
+
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+ 
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.btn.left {
+  left: -50px;
+}
+
+.btn.right {
+  right: -50px;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
